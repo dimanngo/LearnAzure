@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'West Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/dimanngo/LearnAzure/main/CreateWebApp/azuredeploy.json?token=AAPEN2TJRHYQSDVL4ROSZEDAM46X6'
+    csmFileLink: 'https://raw.githubusercontent.com/dimanngo/LearnAzure/main/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName MyAzureLearn'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
