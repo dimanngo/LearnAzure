@@ -20,6 +20,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/dimanngo/LearnAzure/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName learnAzure'
+    overrideParameters: '-projectName learnazure'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
